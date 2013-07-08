@@ -87,3 +87,4 @@ cp $VENDOR_DIR/gcc-4.3/lib64/* $VENDOR_DIR/R/lib64/R/lib
 
 # for subsequent buildpacks
 export R_HOME="$VENDOR_DIR/R"
+export R_INCLUDE="$VENDOR_DIR/R/lib64/R/include"
