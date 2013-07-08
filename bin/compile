@@ -84,3 +84,6 @@ pushd $VENDOR_DIR/glibc-2.7 > /dev/null && rm -rf !(string|time) && popd > /dev/
 
 # HACK
 cp $VENDOR_DIR/gcc-4.3/lib64/* $VENDOR_DIR/R/lib64/R/lib
+
+# for subsequent buildpacks
+export R_HOME="$VENDOR_DIR/R"
